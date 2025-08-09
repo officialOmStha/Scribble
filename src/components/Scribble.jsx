@@ -173,7 +173,7 @@ const Scribble = () => {
             className="flex flex-col items-center justify-center w-[100%] min-h-[100vh] p-4"
             style={{ outline: 'none' }}
         >
-            <h1 className="text-4xl mb-6 font-bold">Scribble Game</h1>
+            <h1 className="text-4xl mb-6 font-bold">Wordle Game</h1>
             <div className="flex flex-col gap-3 mb-6">
                 {board.map((row, rowIndex) => (
                     <ul key={rowIndex} className="flex gap-3">
