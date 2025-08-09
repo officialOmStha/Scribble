@@ -1,11 +1,10 @@
 import { useState } from 'react'
+import Scribble from './components/scribble'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className="text-3xl text-blue-500">Hello World</div>
+      <Scribble />
     </>
   )
 }
