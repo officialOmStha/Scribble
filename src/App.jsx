@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Scribble from './components/scribble'
+import Scribble from './components/Scribble'
 
 function App() {
   return (
